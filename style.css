@@ -118,19 +118,51 @@ a.bottom {
     padding-left: 19px;
 }
 
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 722px;
+}
+
+.menu a {
+    color: #fff;
+    padding-right: 60px;
+    font: 16px maven pro, sans-serif;
+}
+
+.menu a:nth-child(2) {
+    border-bottom: 1px #fff solid;
+    padding: 0;
+}
+
+.menu a:nth-child(3) {
+    padding-left: 60px;
+}
+
+.menu a:last-child {
+    padding: 10px;
+    position: absolute;
+    right: -112px;
+    top: -7px;
+    border-radius: 20px;
+    border: 1px #fff solid;
+    font: 14px "Maven Pro", sans-serif;
+}
+
 .all_on_plan {
     padding-top: 10px
 }
 
-.misocial{
+.misocial {
     position: absolute;
     top: 10px;
 }
-.misocial p{
+
+.misocial p {
     width: 440px;
 }
 
-.misocial h2{
+.misocial h2 {
     width: 393px;
 }
 
@@ -176,12 +208,12 @@ a.bottom {
     color: #b6bac2;
 }
 
-.planss{
+.planss {
     position: absolute;
     top: 60px;
 }
 
-.planss p{
+.planss p {
     width: 305px;
 }
 
@@ -267,7 +299,7 @@ a.bottom {
     left: 227px;
 }
 
-.big_plan_h2_dollar{
+.big_plan_h2_dollar {
     position: absolute;
     font: 20px 'Maven Pro', sans-serif;
     color: #4f4f6f;
@@ -291,7 +323,7 @@ a.bottom {
     font: 14px 'Maven Pro', sans-serif;
 }
 
-.big_plan_h2_dollar2{
+.big_plan_h2_dollar2 {
     position: absolute;
     font: 20px 'Maven Pro', sans-serif;
     color: #4f4f6f;
@@ -323,13 +355,13 @@ a.bottom {
     font: 14px 'Maven Pro', sans-serif;
 }
 
-.plan49{
+.plan49 {
     position: absolute;
     top: 0px;
     left: 1021px;
 }
 
-.big_plan_h2_dollar3{
+.big_plan_h2_dollar3 {
     position: absolute;
     font: 20px 'Maven Pro', sans-serif;
     color: #4f4f6f;
@@ -426,21 +458,23 @@ a.bottom {
     height: 414px;
 }
 
-.banner-p{
+.banner-p {
     position: absolute;
     top: 1473px;
     left: 692px;
     font: 14px "Maven Pro", sans-serif;
     color: #fff;
 }
-.h2-banner{
+
+.h2-banner {
     position: absolute;
     top: 1483px;
     left: 468px;
     color: #fff;
     font: 60px 'Maven Pro', sans-serif;
 }
-.get1{
+
+.get1 {
     width: 190px;
     background: #fff;
     padding: 10px;
@@ -452,7 +486,8 @@ a.bottom {
     right: 748px;
     font: 12px 'Maven Pro', sans-serif;
 }
-.get2{
+
+.get2 {
     width: 190px;
     background: #fff;
     padding: 10px;
@@ -464,6 +499,7 @@ a.bottom {
     right: 526px;
     font: 12px 'Maven Pro', sans-serif;
 }
+
 .get1:hover,
 .get2:hover {
     background: #6e45e2;
