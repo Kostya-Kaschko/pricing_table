@@ -49,7 +49,7 @@ h1 {
 .slider-h2 {
     position: absolute;
     top: 269px;
-    right: 651px;
+    right: 646px;
     color: #fff;
     font: 14px maven pro, sans-serif;
 }
@@ -79,6 +79,7 @@ h1 {
 }
 
 .social {
+    padding-bottom: 10px;
     float: right;
     padding: 15px 30px;
 }
@@ -122,6 +123,15 @@ a.bottom {
     position: absolute;
     top: 10px;
     left: 722px;
+}
+
+.menu a:hover {
+    transition: all .5s ease;
+    color: #756edc;
+}
+
+.menu a:nth-child(2):hover {
+    border-bottom: 1px #756edc solid;
 }
 
 .menu a {
@@ -506,4 +516,123 @@ a.bottom {
     border: #6e45e2 solid;
     color: #fff;
     transition: all .6s ease;
+}
+
+
+.menuha {
+    position: absolute;
+    top: 1932px;
+    left: 760px;
+}
+
+.menuha a {
+    padding-right: 59px;
+}
+
+.symbol_bottom {
+    position: absolute;
+    top: 1907px;
+    left: 60px;
+}
+
+.symboltxt {
+    position: absolute;
+    top: 1900px;
+    left: 111px;
+    color: #37374a;
+}
+
+.css_a {
+    padding: 10px;
+    position: absolute;
+    color: #c2c9db;
+    right: 45px;
+    top: 1925px;
+    border-radius: 20px;
+    border: 1px #c9cfe5 solid;
+    font: 14px "Maven Pro", sans-serif;
+}
+
+.css_a:hover {
+    background: #6e45e2;
+    border: #6e45e2 solid;
+    color: #fff;
+    transition: all .6s ease;
+}
+
+.s_inter {
+    position: absolute;
+    top: 2029px;
+    left: 1370px;
+    padding-bottom: 10px;
+}
+
+
+a.fb {
+    transition: all .5s ease;
+    width: 22px;
+    height: 17px;
+    position: absolute;
+    right: 146px;
+    top: 2018px;
+    background-position: 0 0;
+    background: url(img/f_t_g_in.png);
+}
+
+.fb:hover {
+    background-position: 0px -15px;
+    transition: all .5s ease;
+}
+
+.tw:hover {
+    background-position: -9px -18px;
+}
+
+a.tw {
+    position: absolute;
+    right: 115px;
+    top: 2018px;
+    width: 35px;
+    height: 16px;
+    background-position: -11px -17px;
+    background: url(img/f_t_g_in.png) no-repeat -10px 0;
+}
+
+.gog:hover {
+    background-position: -42px -18px;
+}
+
+a.gog {
+    position: absolute;
+    right: 77px;
+    top: 2018px;
+    width: 35px;
+    height: 16px;
+    background-position: -11px -17px;
+    background: url(img/f_t_g_in.png) no-repeat -46px 0px;
+}
+
+.in:hover {
+    background-position: -78px -18px;
+}
+
+a.in {
+    position: absolute;
+    right: 45px;
+    top: 2018px;
+    width: 35px;
+    height: 16px;
+    background-position: -11px -17px;
+    background: url(img/f_t_g_in.png) no-repeat -74px 0px;
+}
+
+.stop{
+    width: 1419px;
+    padding-bottom: 28px;
+    border-top: 1px solid #f2f2f3;
+    color: #6a6a77;
+    position: absolute;
+    top: 2001px;
+    left: 51px;
+    font: 14px maven pro, sans-serif;
 }
