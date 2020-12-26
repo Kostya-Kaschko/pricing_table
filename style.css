@@ -30,17 +30,18 @@ h1 {
 .slider-line-right {
     position: absolute;
     top: 288px;
-    right: 881px;
+    right: 891px;
 }
 
 .slider-line-left {
     position: absolute;
     top: 288px;
-    left: 881px;
+    left: 1051px;
 }
 
 .symbol {
-    right: 1413px;
+    right: 1583px;
+    top: -30px;
     position: absolute;
     padding-top: 50px;
     padding-left: 58px;
@@ -49,7 +50,7 @@ h1 {
 .slider-h2 {
     position: absolute;
     top: 269px;
-    right: 646px;
+    right: 659px;
     color: #fff;
     font: 14px maven pro, sans-serif;
 }
@@ -57,14 +58,14 @@ h1 {
 .slider-h1 {
     position: absolute;
     top: 289px;
-    right: 586px;
+    right: 626px;
     font: 50px maven pro, sans-serif;
 }
 
 .slider-p {
     position: absolute;
     top: 369px;
-    right: 588px;
+    right: 628px;
     color: #fff;
     font: 12px 'Maven Pro', sans-serif;
 }
@@ -73,10 +74,11 @@ h1 {
     padding-top: 11px;
     position: absolute;
     top: 381px;
-    right: 615px;
+    right: 665px;
     color: #fff;
     font: 12px 'Maven Pro', sans-serif;
 }
+
 
 .social {
     padding-bottom: 10px;
@@ -99,7 +101,7 @@ a.bottom {
     width: 107px;
     height: 83px;
     position: absolute;
-    right: 709px;
+    right: 739px;
     top: 544px;
     background-position: 0 0;
     background: url(img/Rounded_Rectangle.png);
@@ -112,8 +114,8 @@ a.bottom {
 
 .slider-h2-2 {
     position: absolute;
-    top: 29px;
-    right: 1203px;
+    top: -1px;
+    right: 1373px;
     color: #fff;
     font: 30px 'Maven Pro', sans-serif;
     padding-left: 19px;
@@ -122,7 +124,7 @@ a.bottom {
 .menu {
     position: absolute;
     top: 10px;
-    left: 722px;
+    left: 902px;
 }
 
 .menu a:hover {
@@ -143,6 +145,7 @@ a.bottom {
 .menu a:nth-child(2) {
     border-bottom: 1px #fff solid;
     padding: 0;
+    padding-bottom: 6px;
 }
 
 .menu a:nth-child(3) {
@@ -160,7 +163,10 @@ a.bottom {
 }
 
 .all_on_plan {
-    padding-top: 10px
+    padding-top: 10px;
+    position: absolute;
+    top: 10px;
+    left: 90px;
 }
 
 .misocial {
@@ -453,25 +459,31 @@ a.bottom {
     transition: all .6s ease;
 }
 
-.banner img {
-    width: 100%;
+.banner {
+    width: 1688px;
+}
+
+.banner h2:nth-child(1) {
+    left: 490px;
+    width: 930px;
 }
 
 .bg-map {
     position: absolute;
     top: 1453px;
+    width: 1688px;
 }
 
 .map {
     position: absolute;
     top: 1453px;
-    height: 414px;
+    height: 459px;
 }
 
 .banner-p {
     position: absolute;
     top: 1473px;
-    left: 692px;
+    left: 732px;
     font: 14px "Maven Pro", sans-serif;
     color: #fff;
 }
@@ -484,6 +496,7 @@ a.bottom {
     font: 60px 'Maven Pro', sans-serif;
 }
 
+
 .get1 {
     width: 190px;
     background: #fff;
@@ -493,7 +506,7 @@ a.bottom {
     position: absolute;
     color: #c2c9db;
     top: 1642px;
-    right: 748px;
+    right: 898px;
     font: 12px 'Maven Pro', sans-serif;
 }
 
@@ -506,7 +519,7 @@ a.bottom {
     position: absolute;
     color: #c2c9db;
     top: 1642px;
-    right: 526px;
+    right: 666px;
     font: 12px 'Maven Pro', sans-serif;
 }
 
@@ -522,7 +535,7 @@ a.bottom {
 .menuha {
     position: absolute;
     top: 1932px;
-    left: 760px;
+    left: 890px;
 }
 
 .menuha a {
@@ -531,13 +544,13 @@ a.bottom {
 
 .symbol_bottom {
     position: absolute;
-    top: 1907px;
+    top: 1954px;
     left: 60px;
 }
 
 .symboltxt {
     position: absolute;
-    top: 1900px;
+    top: 1947px;
     left: 111px;
     color: #37374a;
 }
@@ -626,7 +639,7 @@ a.in {
     background: url(img/f_t_g_in.png) no-repeat -74px 0px;
 }
 
-.stop{
+.stop {
     width: 1419px;
     padding-bottom: 28px;
     border-top: 1px solid #f2f2f3;
